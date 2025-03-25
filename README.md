@@ -6,11 +6,17 @@ This is a modern web application built using **React, Vite, Tailwind CSS, and An
 The project is all about E-commerce where all the products are shown, we can search any product and can apply filters as well to get the desired product, the product comes as we scroll so the page load gets
 decreses and only the products are fetched upon requirement. User can also add products to the cart and can see details of the products by clicking on the product.
 
+
+
 ## Features  
 - **Fast Development**: Powered by **Vite** for lightning-fast builds and hot reloading.  
 - **Beautiful UI**: Styled with **Tailwind CSS** and enhanced using **Ant Design** components.  
 - **Optimized Performance**: Uses modern React best practices for smooth and responsive UI.  
-- **Modular & Scalable**: Clean and structured component-based architecture.  
+- **Modular & Scalable**: Clean and structured component-based architecture.
+- **Pagination**: To load product when they are needed, so the load on the application is less.
+- **Dynamic Fitering**: Users can search product and can apply filters to get the desired product.
+- **Cart**: Users can add products inside the cart and the cart persists even if user leave the page.
+- **Product-Details**: In product details page, user can see product detail and below the similar products will be suggested to the user 
 
 ## Installation  
 
