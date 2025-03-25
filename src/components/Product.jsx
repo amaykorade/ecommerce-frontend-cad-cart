@@ -123,6 +123,14 @@ export function Product() {
   }, [category, priceRange, minRating, searchTerm]);
 
   useEffect(() => {
+    const pollingInterval = setInterval(() => {
+      fetchProducts();
+    }, 60000);
+
+    return () => clearInterval(pollingInterval);
+  }, [fetchProducts]);
+
+  useEffect(() => {
     const handleScroll = () => {
       if (
         window.innerHeight + window.scrollY >=
